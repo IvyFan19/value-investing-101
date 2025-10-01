@@ -1,3 +1,8 @@
 # Table of contents
 
-* [value-investing-101](README.md)
+* [Value Investing 101](README.md)
+
+## Fundamental Valuation Metrics
+
+* [Price-to-Earnings (P/E) Ratio](PE.md)
+* [Price-to-Book (P/B) Ratio](PB.md)
