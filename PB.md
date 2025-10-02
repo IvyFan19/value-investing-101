@@ -1,11 +1,10 @@
 # Price/Book Ratio
 ## Metadata
-Id: price_book_ratio
-Type: fundamentals
-Subtype: ratios
-Units: ratio
-Decimal Points: 2
-Currency Convertible: No
+- Id: price_book_ratio
+- Category: ratios
+- Subtype: valuation
+- Units: ratio
+- Decimal Points: 2
 
 ## Description
 Price to Book (P/B) Ratio is a valuation metric that compares a company's market price to its book value. It indicates how much investors are willing to pay for each dollar of net assets. The book value represents the company's total assets minus its liabilities, essentially showing what shareholders would theoretically receive if the company were liquidated.
