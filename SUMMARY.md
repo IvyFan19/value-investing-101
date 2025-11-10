@@ -11,8 +11,6 @@
 
 * [Price-to-Book (P/B) Ratio](PB.md)
 
-## Cash Flow Statement
-
 ## Ratios
 
 * [Price-to-Earnings (P/E) Ratio](PE.md)
