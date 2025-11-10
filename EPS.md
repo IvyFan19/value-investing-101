@@ -1,7 +1,12 @@
-# Earnings per Share (EPS)$$$$
+# Earnings per Share (EPS)
 
 ## Description
 Earnings per Share (EPS) represents the portion of a company's profit allocated to each outstanding share of common stock. It's one of the most important metrics for assessing a company's profitability and is a key component in calculating the P/E ratio.
+
+gpood
+yes
+mama
+@@@@@
 
 A higher EPS indicates greater profitability; a growing EPS over time suggests improving business performance and potential for shareholder value creation.
 
