@@ -1,7 +1,9 @@
 # Earnings per Share (EPS)
 
 ## Description
-EPS tells you how much money the company made for each share of stock. If a company earned $100 million and has 10 million shares, the EPS is $10 per share. A higher EPS means the company is more profitable.
+EPS tells you how much money the company made for each share of stock. 
+- If a company earned $100 million and has 10 million shares, the EPS is $10 per share. 
+- A higher EPS means the company is more profitable.
 
 ## Where to Find
 

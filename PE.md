@@ -1,49 +1,37 @@
 # Price-to-Earnings (P/E) Ratio
 
-## Description
-The P/E ratio measures how much investors are willing to pay for each dollar of a company's earnings. 
+## What Is It?
+The P/E ratio shows how many years it takes for the company to earn back your investment.
 
-A higher P/E suggests investors expect strong future growth; a lower P/E may indicate lower growth expectations or potential undervaluation.
+**Simple Example:**
+- If you buy a stock for $30 and the company earns $2 per share each year
+- P/E = $30 ÷ $2 = 15
+- It would take 15 years for the company to earn back your $30
 
-## Formula
-$$\text{P/E} = \frac{\text{Market Price per Share}}{\text{TTM EPS}}$$
+**What It Means:**
+- **High P/E (like 30+)**: You're paying a lot. Investors expect the company to grow fast in the future.
+- **Low P/E (like 10-15)**: You're paying less. Either the company is a bargain, or people worry about its future.
 
-Data Sources:
-- [Market Price per Share](market-price-per-share.md): Current trading price from stock exchanges
-- [TTM EPS](TTM-EPS.md): Company's net income over the last 12 months divided by outstanding shares, found in financial statements
+## How To Calculate It
+$$\text{P/E} = \frac{\text{Stock Price}}{\text{Earnings Per Share (EPS)}}$$
 
-## Example: Meta Platforms (META)
+**What You Need:**
+- **Stock Price**: What the stock costs right now (check [Yahoo Finance](https://finance.yahoo.com))
+- **[Earnings Per Share (EPS)](EPS.md)**: How much profit the company made per share in the last year (found in financial reports)
 
-**Late 2022 (Market Bottom):**
-- Stock Price: $136 | TTM EPS: $10.63 | P/E: 12.8
-- Calculation: $136 / $10.63 = 12.8
-- Low P/E suggested undervaluation or investor pessimism
 
-**Late 2024:**
-- Stock Price: $744 | TTM EPS: $27.66 | P/E: 26.9
-- Calculation: $744 / $27.66 = 26.9
-- Higher P/E reflects strong growth expectations
+## How Buffett Uses P/E
 
-**Key Insight:** Stock price rose 5.5x while P/E doubled, showing how the ratio reflects market sentiment. The 2022 low P/E signaled a value opportunity.
+**Buffett's Sweet Spot:**
+- He typically buys stocks with P/E between **11-15**
+- Translation: He waits 11-15 years to earn back his money
+- He wants a bargain, not an expensive stock
 
-## Warren Buffett's P/E Interpretation
+**His Simple Rules:**
+1. **Compare**: Don't just look at one P/E number. Compare it to:
+   - Other companies in the same industry
+   - The company's past P/E ratios
+2. **Low P/E ≠ Always Good**: A low P/E on a great company might be a steal. On a bad company, it's just cheap for a reason.
+3. **Quick Check**: P/E × Price-to-Book should be less than 22.5 for a value opportunity
 
-**Buffett's Buying Range:**
-- Historically pays P/E ratios of 11-15 times earnings (earnings yields of 7-9%) [Source](https://pictureperfectportfolios.com/how-warren-buffett-evaluates-stocks-key-metrics-to-consider/)
-- Prefers buying at a discount to worst-case scenarios
-
-**Key Principles:**
-- "Common yardsticks such as dividend yield, the ratio of price to earnings or to book value... have nothing to do with valuation except to the extent they provide clues to the amount and timing of cash flows" [Source](https://www.investorsfriend.com/price-to-value-ratio/)
-- Compare P/E with competitors, industry average, and company's historical P/E
-- Lower P/E may signal undervaluation in quality businesses with strong moats
-- [P/E ratios move up based on better business prospects or changes in interest rates](https://www.newtraderu.com/2023/07/18/warren-buffett-explains-the-reasons-for-higher-p-e-ratios/)
-
-**Simple Valuation Rule:**
-- P/E × P/BV (Price-to-Book) < 22.5 for value opportunities
-
-## Metadata
-- Id: price_earnings_ratio
-- Category: ratios
-- Subtype: valuation
-- Units: ratio
-- Decimal Points: 2
+**Bottom Line:** Buffett looks for quality companies selling at low P/E ratios. That's how he finds bargains.
