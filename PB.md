@@ -1,42 +1,40 @@
-# Price/Book Ratio
-## Metadata
-- Id: price_book_ratio
-- Category: ratios
-- Subtype: valuation
-- Units: ratio
-- Decimal Points: 2
+# Price-to-Book (P/B) Ratio
 
-## Description
-Price to Book (P/B) Ratio is a valuation metric that compares a company's market price to its book value. It indicates how much investors are willing to pay for each dollar of net assets. The book value represents the company's total assets minus its liabilities, essentially showing what shareholders would theoretically receive if the company were liquidated.
+## What Is It?
+The P/B ratio shows how much you're paying compared to what the company actually owns.
 
-A P/B ratio above 1.0 suggests that the market values the company at more than its accounting book value, potentially indicating investor confidence in future growth or intangible assets not reflected on the balance sheet. A P/B ratio below 1.0 may suggest the company is undervalued or facing challenges.
+**Simple Example:**
+- A company owns assets (buildings, equipment, cash) worth $100 million
+- It owes $40 million in debts
+- Book Value = $100M - $40M = $60 million
+- If the stock market values the company at $120 million
+- P/B = $120M ÷ $60M = 2.0
+- You're paying $2 for every $1 of actual stuff the company owns
 
-This ratio is particularly useful for evaluating capital-intensive businesses like banks, insurance companies, and manufacturing firms where tangible assets play a significant role.
+**What It Means:**
+- **P/B below 1**: You're paying less than what the company owns. Could be a bargain (or the assets aren't worth much).
+- **P/B around 1**: You're paying exactly what the company owns.
+- **P/B above 1**: You're paying more than the company owns. Investors believe it can make good profits with those assets.
 
-## Formula
-P/B Ratio = Market Price per Share / Book Value per Share
+## How To Calculate It
+$$\text{P/B} = \frac{\text{Stock Price}}{\text{Book Value Per Share}}$$
 
-Where:
-- Market Price per Share is the current trading price of the stock
-- Book Value per Share = (Total Assets - Total Liabilities) / Number of Outstanding Shares
+**What You Need:**
+- **Stock Price**: What the stock costs right now (check [Yahoo Finance](https://finance.yahoo.com))
+- **Book Value Per Share**: (Total Assets - Total Debts) ÷ Number of Shares (found in financial reports)
 
-## Example
-If a company's stock is trading at $50 per share and its book value per share is $25, the P/B ratio would be:
+## When P/B Works Best
 
-P/B Ratio = $50 / $25 = 2.0
+**Good for:**
+- Banks and insurance companies (lots of real assets)
+- Manufacturing companies (factories, equipment)
+- Companies with lots of physical stuff
 
-This means investors are paying $2 for every $1 of book value, suggesting the market believes the company's assets can generate value beyond their accounting value.
+**Not great for:**
+- Tech companies (their value is in ideas and software, not buildings)
+- Service businesses (value is in people and brands, not physical assets)
 
-## Interpretation
-- **P/B < 1.0**: Potentially undervalued; market price is below book value
-- **P/B = 1.0**: Trading at book value
-- **P/B > 1.0**: Market values the company above its net asset value
-- **P/B > 3.0**: May indicate high growth expectations or significant intangible assets
-
-## Considerations
-When using P/B ratio for investment decisions, consider:
-- Industry norms (technology companies typically have higher P/B ratios than manufacturing)
-- Quality of assets (outdated equipment may be overvalued on the balance sheet)
-- Intangible assets not reflected in book value (brand value, patents, intellectual property)
-- Accounting methods that can affect book value calculations
-- Company's return on equity (ROE) - higher ROE often justifies higher P/B ratios
+**Important Notes:**
+1. **Compare within the same industry**: A tech company's P/B of 10 might be normal, but for a bank it would be crazy high.
+2. **Low P/B isn't always good**: Sometimes assets are outdated or worthless.
+3. **Buffett's trick**: P/E × P/B should be less than 22.5 for a value opportunity.
