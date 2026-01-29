@@ -14,11 +14,37 @@ ROE shows how much profit a company generates with the money shareholders have i
 - **Low ROE (like 5-10%)**: The company isn't using shareholder money efficiently. Could be mediocre management or a tough business.
 
 ## How To Calculate It
-$$\text{ROE} = \frac{\text{Net Income}}{\text{Shareholder Equity}} \times 100$$
+
+**For Quarterly Data (TTM - Trailing Twelve Months):**
+$$\text{ROE} = \frac{\text{Net Income (TTM)}}{\text{Average Equity (TTM)}} \times 100$$
+
+$$= \frac{Q_t + Q_{t-1} + Q_{t-2} + Q_{t-3}}{\frac{E_t + E_{t-1} + E_{t-2} + E_{t-3}}{4}} \times 100$$
+
+Where:
+- $Q_t$ = Net income for the most recent quarter
+- $Q_{t-1}, Q_{t-2}, Q_{t-3}$ = Net income for the previous three quarters
+- $E_t$ = Shareholder equity at the end of the most recent quarter
+- $E_{t-1}, E_{t-2}, E_{t-3}$ = Shareholder equity at the end of the previous three quarters
+
+**For Annual Data:**
+$$\text{ROE} = \frac{\text{FY Net Income}}{\text{Average Equity}} \times 100$$
+
+$$= \frac{\text{FY Net Income}}{\frac{\text{FY Equity} + \text{FY Prior Equity}}{2}} \times 100$$
+
+Where:
+- **FY Net Income**: Net income for the fiscal year
+- **FY Equity**: Shareholder equity at the end of the fiscal year
+- **FY Prior Equity**: Shareholder equity at the end of the prior fiscal year
 
 **What You Need:**
-- **Net Income**: The company's total profit for the year (found on income statement)
-- **Shareholder Equity**: Total value that belongs to shareholders (found on balance sheet)
+- **Net Income**: The company's total profit (found on income statement)
+- **Shareholder Equity**: Total value that belongs to shareholders (found on balance sheet) - [Learn more about Shareholder Equity](Shareholder-Equity.md)
+
+**Why Use Average Equity?**
+Using average equity gives a more accurate picture because:
+- Equity changes throughout the year as the company earns profits or issues/buys back shares
+- It avoids distortions from using just the end-of-period equity
+- It better matches the income earned over the period with the average capital employed
 
 **Where to Find These Numbers:**
 1. **SEC Filings** (most reliable source):
@@ -28,7 +54,33 @@ $$\text{ROE} = \frac{\text{Net Income}}{\text{Shareholder Equity}} \times 100$$
    - **Net Income**: In the "Consolidated Statements of Income" or "Income Statement"
    - **Shareholder Equity**: In the "Consolidated Balance Sheet" (listed as "Total Stockholders' Equity" or "Total Shareholders' Equity")
 
-2. **Quick Alternative**: [Yahoo Finance](https://finance.yahoo.com) often shows ROE already calculated under "Statistics" or "Key Statistics"
+
+## Real Example: Google (Alphabet Inc.)
+
+Let's calculate ROE for Google using their 2024 financial data:
+
+**Step 1: Find the Numbers**
+- **Net Income** (FY 2024): $100.1 billion
+- **Shareholder Equity** (end of FY 2024): $325.1 billion
+- **Shareholder Equity** (end of FY 2023): $283.4 billion
+
+**Step 2: Calculate Average Equity**
+$$\text{Average Equity} = \frac{\$325.1 \text{ billion} + \$283.4 \text{ billion}}{2} = \$304.25 \text{ billion}$$
+
+**Step 3: Calculate ROE**
+$$\text{ROE} = \frac{\$100.1 \text{ billion}}{\$304.25 \text{ billion}} \times 100 = 32.9\%$$
+
+**What This Means:**
+- For every dollar of average shareholder equity, the company generated about 33 cents in profit in 2024
+- This is **exceptional** - well above Buffett's 15% threshold
+- Google's 5-year average ROE is 25.87%, showing consistent high performance
+- This demonstrates excellent management and a strong competitive advantage (search engine dominance, cloud services, advertising platform)
+
+**Why Buffett Would Like This:**
+- ROE of 32.9% is more than double his 15% minimum
+- Consistently high performance over multiple years (5-year average: 25.87%)
+- Shows management is extremely efficient at turning shareholder money into profits
+- The trend is stable to improving, not declining
 
 ## How Buffett Uses ROE
 
